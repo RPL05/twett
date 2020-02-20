@@ -21,22 +21,18 @@
                     <div><svg fill="none" height="24" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="2"/><circle cx="12" cy="4" r="2"/><circle cx="12" cy="20" r="2"/></svg></div>
                 </div>
                 <div class="card-body">
-                    <div class="row">
-                        <div class="col-md-3">
-                            <img src="{{asset('image/epic-games-fortnite-tournament-mode-fix-update-scoring-changes.jpg')}}" width="50" height="50" class="rounded-circle" alt="">
-                        </div>
-                        <div class="d-flex">
-                            
-                            <h6 class="text-dark">
-                                Fortnite
-                                <h6 class="text-muted">@Ninja</h6>
-                            </h6>
-                        </div>
-                        <div>
-                            <p class="text-primary">
-                                @Apex
-                                <spam class="text-muted"> Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit, Sed Do .</span>
-                            </p>
+                    <div class="d-flex">
+                        <img src="{{asset('image/epic-games-fortnite-tournament-mode-fix-update-scoring-changes.jpg')}}" width="50" height="50" class="rounded-circle" alt="">
+                            <div class="ml-3">
+                                <h6 class="text-dark">
+                                     Fortnite
+                                <small class="text-muted">@Ninja</small>
+                                </h6>
+                                <h6 class="text-primary">
+                                    @apex,
+                                <span class="text-muted"> lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do .</span>
+                                </h6>
+                            </div>
                         </div>
                     </div>
                 </div>
