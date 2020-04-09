@@ -21,7 +21,7 @@
 </head>
 <body class="bg-white">
     <div id="app">
-        <nav class="navbar navbar-expand-md navbar-light navbar-laravel shadow-sm">
+        <nav class="navbar navbar-expand-md navbar-light navbar-laravel shadow-sm sticky-top">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
                 <img src="http://localhost/twett/public/image/logo-twitter-png.png" class="nav-link" height="40" style="display: block; margin: auto;">
@@ -33,6 +33,12 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a href="{{route('profile.show')}}" class="nav-link">Profile</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{{route('home')}}" class="nav-link">Home</a>
+                        </li>
                         <li class="nav-item">
                             <a href="{{route('twitter.about')}}" class="nav-link">About</a>
                         </li>
@@ -85,9 +91,7 @@
             </div>
         </nav>
 
-        <main class="py-4">
             @yield('content')
-        </main>
     </div>
 </body>
 </html>

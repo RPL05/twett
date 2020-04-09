@@ -23,3 +23,4 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
+Route::get('profile/show', 'Profile\ProfileController@show')->name('profile.show');
